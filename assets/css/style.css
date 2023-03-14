@@ -1,0 +1,78 @@
+*{
+    box-sizing: inherit;
+    margin: 0;
+}
+
+/*CSS cho HTML*/
+html {
+    font-family: 'DM Sans', sans-serif;
+    box-sizing: border-box;
+}
+
+/*Responsive*/
+.grid {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/*Dòng trong grid
+- Có nhiều column
+*/
+.grid__row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -12px;
+}
+
+.grid__column-8 {
+    max-width: 66.66667%;
+    padding: 0 12px;
+}
+
+.grid__column-4 {
+    padding: 0 12px;
+    max-width: 33.33333%;
+}
+
+
+.app {
+    display: flex;
+
+}
+.slider-bars {
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    
+    
+}
+.bars-list {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    align-items: end;
+}
+.bars-item {
+    padding: 20px 0;
+}
+.bars-settings {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+    align-items: end;
+}
+.bars-item__img {
+    width: 40px;
+    height: 40px;
+}
+
+.container {
+    width: 100%;
+}
