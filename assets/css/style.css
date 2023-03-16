@@ -16,12 +16,11 @@ html {
 
 }
 .slider-bars {
-    width: 200px;
+    width: 170px;
     display: inline-flex;
     flex-direction: column;
     justify-content: space-between;
-    
-    
+    margin-right: 20px;
 }
 .bars-list {
     display: flex;
@@ -54,15 +53,15 @@ html {
 .mettings {
     width: 66.66667%;
     padding: 0 40px;
+    border-left: 1px solid #f4ebeb;
 }
 .participants {
     width: 33.33333%;
-    padding: 0 40px;
+    border-left: 1px solid #f4ebeb;
 }
 
 
 .nav__title {
-    
     padding: 40px 0;
     display: flex;
     align-items: center;
@@ -191,10 +190,12 @@ html {
 }
 
 .participants-user {
+    padding: 40px;
+    border-bottom: 1px solid #f4ebeb;
 }
 
 .user-title {
-    padding: 40px 0;
+    padding-bottom: 40px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -243,9 +244,10 @@ html {
 }
 
 .user-item__info-name {
-    font-size: 16px;
+    font-size: 14px;
     color: #000000;
     margin-left: 5px;
+    font-weight: 400;
 }
 
 .user-item__controls {
@@ -262,3 +264,86 @@ html {
     color: #737477;
 }
 
+.participants-chat {
+    padding: 40px;
+}
+
+.chat-title {
+    font-size: 14px;
+    color: #000000;
+    
+}
+
+.chat-list {
+    margin-top: 40px;
+}
+
+.chat-item {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-user {
+    display: flex;
+    align-items: center;
+}
+
+.chat-user-img {
+}
+
+.chat-user-name {
+    font-size: 14px;
+    color: #000000;
+    font-weight: 500;
+    margin: 0 15px;
+}
+
+.chat-user-time {
+    font-weight: 400;
+    color: #737477;
+}
+
+.chat-content {
+    margin-left: 50px;
+    background-color: #f8f9fa;
+    padding: 10px;
+    border-radius: 3px;
+}
+
+
+.chat-send {
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.chat-send-content {
+    display: flex;
+    align-items: center;
+    width: 300px;
+    height: 100%;
+    background-color: #f8f9fa;
+    border-radius: 3px;
+}
+
+.chat-send-input {
+    padding: 0 10px;
+    outline: none;
+    border: none;
+    height: 100%;
+    width: 100%;
+    background-color: transparent;
+    
+}
+
+.chat-send-input-icon {
+    font-size: 20px;
+    padding: 0 10px;
+}
+
+.chat-send-btn {
+
+}
